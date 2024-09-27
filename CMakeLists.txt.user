@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 13.0.2, 2024-09-07T23:20:55. -->
+<!-- Written by QtCreator 13.0.2, 2024-09-07T23:26:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -109,7 +109,7 @@
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_PROJECTS\COS3711 ASSIGNMENT 3\COS3711_ASSIGNMENT3_Q2_BOOK_METAOBJECT\Q2_METAOBJECT\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -165,7 +165,7 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_PROJECTS\COS3711 ASSIGNMENT 3\COS3711_ASSIGNMENT3_Q2_BOOK_METAOBJECT\Q2_METAOBJECT\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -219,7 +219,7 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_PROJECTS\COS3711 ASSIGNMENT 3\COS3711_ASSIGNMENT3_Q2_BOOK_METAOBJECT\Q2_METAOBJECT\build\Desktop_Qt_6_7_0_MinGW_64_bit-RelWithDebInfo</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY\build\Desktop_Qt_6_7_0_MinGW_64_bit-RelWithDebInfo</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -274,7 +274,7 @@
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_PROJECTS\COS3711 ASSIGNMENT 3\COS3711_ASSIGNMENT3_Q2_BOOK_METAOBJECT\Q2_METAOBJECT\build\Desktop_Qt_6_7_0_MinGW_64_bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY\build\Desktop_Qt_6_7_0_MinGW_64_bit-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -328,7 +328,7 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_PROJECTS\COS3711 ASSIGNMENT 3\COS3711_ASSIGNMENT3_Q2_BOOK_METAOBJECT\Q2_METAOBJECT\build\Desktop_Qt_6_7_0_MinGW_64_bit-MinSizeRel</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\COS3711_ASSIGNMENTS_2024\COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY\build\Desktop_Qt_6_7_0_MinGW_64_bit-MinSizeRel</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -393,14 +393,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Q2_METAOBJECT</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.Q2_METAOBJECT</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">Q2_METAOBJECT</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY</value>
     <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/COS3711_ASSIGNMENTS_2024/COS3711_PROJECTS/COS3711 ASSIGNMENT 3/COS3711_ASSIGNMENT3_Q2_BOOK_METAOBJECT/Q2_METAOBJECT/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/COS3711_ASSIGNMENTS_2024/COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

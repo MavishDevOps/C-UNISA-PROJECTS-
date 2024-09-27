@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(Q2_METAOBJECT VERSION 0.1 LANGUAGES CXX)
+project(COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
@@ -19,40 +19,38 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(Q2_METAOBJECT
+    qt_add_executable(COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        book.h book.cpp
-        bookinput.h bookinput.cpp
-        bookwriter.h bookwriter.cpp
+        passwordcheck.h passwordcheck.cpp
     )
 # Define target properties for Android with Qt 6 as:
-#    set_property(TARGET Q2_METAOBJECT APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
+#    set_property(TARGET COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
 #                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
 # For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 else()
     if(ANDROID)
-        add_library(Q2_METAOBJECT SHARED
+        add_library(COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY SHARED
             ${PROJECT_SOURCES}
         )
 # Define properties for Android with Qt 5 after find_package() calls as:
 #    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
-        add_executable(Q2_METAOBJECT
+        add_executable(COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY
             ${PROJECT_SOURCES}
         )
     endif()
 endif()
 
-target_link_libraries(Q2_METAOBJECT PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
 if(${QT_VERSION} VERSION_LESS 6.1.0)
-  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.Q2_METAOBJECT)
+  set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY)
 endif()
-set_target_properties(Q2_METAOBJECT PROPERTIES
+set_target_properties(COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY PROPERTIES
     ${BUNDLE_ID_OPTION}
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
@@ -61,12 +59,12 @@ set_target_properties(Q2_METAOBJECT PROPERTIES
 )
 
 include(GNUInstallDirs)
-install(TARGETS Q2_METAOBJECT
+install(TARGETS COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY
     BUNDLE DESTINATION .
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
 if(QT_VERSION_MAJOR EQUAL 6)
-    qt_finalize_executable(Q2_METAOBJECT)
+    qt_finalize_executable(COS3711_ASSIGNMENT3_Q3_PASSWORD_VALIDITY)
 endif()
